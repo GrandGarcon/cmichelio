@@ -1,6 +1,8 @@
-# cmichel.io
+# FrontierTech.io
 
-These are the source-files for my blog, [cmichel.io](https://cmichel.io).
+These are the source-files for my blog, [FrontierTech.xyz](https://cmichel.io) for creating an sleek , web3 first portfolio website for putting in sync my work as the web3 consultant and project development lifecycle
+
+### credits to Cmichelo [https://cmichel.io] for sharing this template 
 
 ## Get started
 
@@ -10,9 +12,16 @@ These are the source-files for my blog, [cmichel.io](https://cmichel.io).
 1. To build (deploy) the site, run `gatsby build` (`npm run deploy`)
 
 
-### Additional Setup
+### Additional Setup (workflows)
 
-This repo includes cross-posting scripts to publish the articles to [medium](https://medium.com) and the [steem blockchain](https://steemit.com).
+This repo includes cross-posting scripts to publish the articles to 
+ - [medium](https://medium.com) 
+ - [steem blockchain](https://steemit.com).
+ - [ ] integration of mirror.xyz
+ - [ ] portfolio of my address
+        - [ ] DAO governance participation
+        - [ ] onchain DIM's 
+
 After cloning this repo, you need to set up your `.env` file. An example is given in `.env.example`.
 
 I use [netlify](https://netlify.com) to auto-deploy this site on any changes in this repo. You might want to create an account and authorize `netlify`.
@@ -48,7 +57,12 @@ Other plugins used in the **build** process:
 
 ## Crossposting
 
-This repo includes cross-posting scripts to publish the posts to [medium](https://medium.com) and the [steem blockchain](https://steemit.com).
+This repo includes cross-posting scripts to publish the posts to [medium](https://medium.com) and the [steem blockchain](https://steemit.com) and the support for mirror , 
+
+
+## onchain data integration (TODO) : 
+
+this portfolio website will also include the data stats from my engagement of the smart contracts on defi , DAO , NFT , using  the subgraph
 
 ### Setup
 
@@ -75,6 +89,7 @@ The following modifications are done when publishing a markdown post:
 3. A footer is inserted, linking back to the original post on my blog.
 
 ## ToDo:
-
+* [ ]  setting up the env vars and getting the application running .
 * [ ] Add drip widget / newsletter subscription?
 * [ ] Implement auto-detection of new posts, and add a `.circleci` git hook which then automatically cross-posts.
+

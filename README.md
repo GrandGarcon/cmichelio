@@ -17,11 +17,7 @@ These are the source-files for my blog, [FrontierTech.xyz](https://cmichel.io) f
 This repo includes cross-posting scripts to publish the articles to 
  - [medium](https://medium.com) 
  - [steem blockchain](https://steemit.com).
- - [ ] integration of mirror.xyz
- - [ ] portfolio of my address
-        - [ ] DAO governance participation
-        - [ ] onchain DIM's 
-
+ 
 After cloning this repo, you need to set up your `.env` file. An example is given in `.env.example`.
 
 I use [netlify](https://netlify.com) to auto-deploy this site on any changes in this repo. You might want to create an account and authorize `netlify`.
@@ -92,4 +88,8 @@ The following modifications are done when publishing a markdown post:
 * [ ]  setting up the env vars and getting the application running .
 * [ ] Add drip widget / newsletter subscription?
 * [ ] Implement auto-detection of new posts, and add a `.circleci` git hook which then automatically cross-posts.
-
+* [ ] integration of mirror.xyz
+* [ ] portfolio of my address
+* [ ] DAO governance participation
+* [ ] onchain  company exeprience on other tech / projects 
+* [ ] integration with everest's crypto-registeries

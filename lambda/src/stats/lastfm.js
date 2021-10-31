@@ -8,7 +8,7 @@ if (!API_KEY) throw new Error(`No last.fm API key provided`)
 
 // https://www.last.fm/api/show/user.getRecentTracks
 const MAKERLOG_BASE_URL = `http://ws.audioscrobbler.com`
-const USER = `cmichelio`
+const USER = `GrandGarcon`
 const LIMIT = `3`
 const url = new URL(`/2.0/`, MAKERLOG_BASE_URL)
 

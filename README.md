@@ -20,7 +20,7 @@ This repo includes cross-posting scripts to publish the articles to
  - [ ] integration of mirror.xyz
  - [ ] portfolio of my address
         - [ ] DAO governance participation
-        - [ ] onchain DIM's 
+        - [ ] onchain stats and registry for the diffrent projects being indexezd via TheGraph. 
 
 After cloning this repo, you need to set up your `.env` file. An example is given in `.env.example`.
 

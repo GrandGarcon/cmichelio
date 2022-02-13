@@ -20,7 +20,8 @@ This repo includes cross-posting scripts to publish the articles to
  - [ ] integration of mirror.xyz
  - [ ] portfolio of my address
         - [ ] DAO governance participation
-        - [ ] onchain stats and registry for the diffrent projects being indexezd via TheGraph. 
+        - [ ] onchain stats of my depoyed smart contracts AUM and indexed via TheGraph
+
 
 After cloning this repo, you need to set up your `.env` file. An example is given in `.env.example`.
 
@@ -57,12 +58,12 @@ Other plugins used in the **build** process:
 
 ## Crossposting
 
-This repo includes cross-posting scripts to publish the posts to [medium](https://medium.com) and the [steem blockchain](https://steemit.com) and the support for mirror , 
+This repo includes cross-posting scripts to publish the posts to [medium](https://medium.com) and the [steem blockchain](https://steemit.com) and the support for mirror , discord will be added soon .
 
 
 ## onchain data integration (TODO) : 
 
-this portfolio website will also include the data stats from my engagement of the smart contracts on defi , DAO , NFT , using  the subgraph
+this portfolio website will also include the data stats from my engagement of the smart contracts on defi , DAO , NFT , using  the subgraph.
 
 ### Setup
 
@@ -73,6 +74,10 @@ You'll also need an access token for each Medium account that should be able to 
 An easy way to do that is by getting a Medium **Integration token**:
 Go to your [Medium Settings](https://medium.com/me/settings) and create a token in the _Integration Token_ section.
 (You can also get "normal" access tokens for a user using standard OAuth2 with the [medium-sdk](https://github.com/Medium/medium-sdk-nodejs#usage).)
+
+<TODO: defining the steps for setting up the subgraph for fetching the  details from github , medium and other workflows and how to set up the variable library >
+
+
 
 ### Publishing
 
@@ -91,5 +96,5 @@ The following modifications are done when publishing a markdown post:
 ## ToDo:
 * [ ]  setting up the env vars and getting the application running .
 * [ ] Add drip widget / newsletter subscription?
-* [ ] Implement auto-detection of new posts, and add a `.circleci` git hook which then automatically cross-posts.
+* [ ] Implement auto-detection of new posts / smart contracts / events , and then  add a `.circleci` git hook which then automatically cross-posts.
 

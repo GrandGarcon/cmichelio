@@ -6,7 +6,7 @@ export default function HireMeSection({ siteMetadata }) {
   return (
     <React.Fragment>
       <p>
-        I started programming at the age of 15, graduated with Bachelor and
+        My interest in ⛓ started after my starting of the , graduated with Bachelor and
         Master degrees in{` `}
         <span className="font-bold">Maths and Computer Science</span> 🎓 , and
         have been working professionally as a{` `}

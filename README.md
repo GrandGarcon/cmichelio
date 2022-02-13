@@ -20,7 +20,8 @@ This repo includes cross-posting scripts to publish the articles to
  - [ ] integration of mirror.xyz
  - [ ] portfolio of my address
         - [ ] DAO governance participation
-        - [ ] onchain stats of my depoyed smart contracts AUM. 
+        - [ ] onchain stats of my depoyed smart contracts AUM and indexed via TheGraph
+
 
 After cloning this repo, you need to set up your `.env` file. An example is given in `.env.example`.
 

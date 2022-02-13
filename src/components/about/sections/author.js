@@ -16,13 +16,13 @@ function AboutSection(props) {
   return (
     <ul>
       <li>
-        I wrote a 260 pages book about{` `}
+        I currently work with  the company {` `}
         <span className="font-semibold italic">
-          Learning EOS Blockchain Development
+          for ⚒️ the future of the web3 based DeFI ecosystem.
         </span>
-        . Available at{` `}
+        . checkout here{` `}
         <a
-          href="https://learneos.dev"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -31,7 +31,7 @@ function AboutSection(props) {
         .
       </li>
       <li>
-        I write tech tutorials and articles on this blog since{` `}
+        I write tech tutorials and articles about the intersection of society , web3 and  progressive adaption  {` `}
         <span className="font-semibold">{formatDate(oldestPostDate)}</span>. I
         wrote <span className="font-semibold">{totalPosts}</span> posts since
         then. That's an average of{` `}
